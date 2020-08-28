@@ -24,7 +24,10 @@ public class Contrato {
         System.out.println("Lista de bicicletas para esse contrato");  
      
         for(int i = 0; i < bicicleta.size(); i++) {
-            System.out.println("Código da bicicleta: " 
+            System.out.println("\n"
+                    + "Bicicleta: " + (i + 1)
+                    + "\n"
+                    + "Código da bicicleta: "
                     + bicicleta.get(i).getCodigoBicicleta() 
                     + "\n" 
                     + "Cor da bicicleta: " 
@@ -41,7 +44,9 @@ public class Contrato {
             );
 
         }
-           
+        System.out.println("--------Fim do Contrato--------"
+                + "\n"
+        );
     }
 
     @Override
